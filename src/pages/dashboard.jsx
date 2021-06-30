@@ -70,6 +70,11 @@ const Dashboard = () => {
 
                         <div className={dashboardStyle.repositories}>
                             {repository.map((repo, index) => {
+
+                                if (!repo.description) {
+                                    repo.description = 'Sem descrição.';
+                                }
+
                                 return <Card
                                     key={index}
                                     title={repo.name}
