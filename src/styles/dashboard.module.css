@@ -100,3 +100,74 @@
 .quitButton img {
     width: 20px;
 }
+
+@media only screen and (max-width: 1015px) {
+    .findContainer {
+        flex-direction: column;
+    }
+
+    .profile {
+        width: 700px;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    body {
+        background: rgb(238, 238, 238);
+    }
+}
+
+@media only screen and (max-width: 710px) {
+    .profile {
+        width: 600px;
+    }
+
+    .content {
+        width: 600px;
+    }
+
+    body {
+        background: rgb(238, 238, 238);
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .profile {
+        width: 500px;
+    }
+
+    .content {
+        width: 500px;
+    }
+
+    body {
+        background: rgb(238, 238, 238);
+    }
+}
+
+@media only screen and (max-width: 515px) {
+    .profile {
+        width: 400px;
+    }
+
+    .content {
+        width: 400px;
+    }
+
+    body {
+        background: rgb(238, 238, 238);
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .profile {
+        width: 350px;
+    }
+
+    .content {
+        width: 350px;
+    }
+
+    body {
+        background: rgb(238, 238, 238);
+    }
+}
