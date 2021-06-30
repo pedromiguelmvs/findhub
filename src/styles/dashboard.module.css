@@ -1,0 +1,102 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: rgb(238, 238, 238);
+}
+
+.findContainer {
+    display: flex;
+    height: auto;
+    max-height: 550px;
+    flex-direction: row;
+    filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.308));
+}
+
+.profile {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    background: #252525;
+    color: #f5f5f5;
+}
+
+.profileImage {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.bio {
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+}
+
+.separator {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.content {
+    width: 700px;
+    height: auto;
+    padding: 20px;
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    background: #DDDDDD;
+    color: #000;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.repositories {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.quitButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 35px;
+    height: 35px;
+    border: none;
+    background: rgb(238, 238, 238);
+    border-radius: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.quitButton img {
+    width: 20px;
+}
