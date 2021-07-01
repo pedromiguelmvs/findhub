@@ -1,6 +1,6 @@
 # FindHub
 
-O projeto tem como objetivo refatorar a interface do github para deixá-la mais limpa e objetiva, contendo apenas as informações essenciais do usuário.
+O projeto tem como objetivo refatorar a interface do github para deixá-la mais limpa e objetiva, contendo apenas as informações essenciais do usuário. [Demo clicando aqui.](https://findhub.vercel.app/)
 
 ## Ferramentas utilizadas
 
